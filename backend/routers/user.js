@@ -1,9 +1,8 @@
 const express = require("express");
-const jwt = require("jsonwebtoken");
-const User = require("../models/User");
-const CustomAPIError = require("../errors");
-const userController = require("../controllers/user");
+const { createUser, updatePassword } = require("../controllers/user");
 const router = express.Router();
 
+router.post("/", createUser);
+router.put("/", updatePassword);
 
 module.exports = router;

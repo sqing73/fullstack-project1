@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Product 384",
+    "description": "Description for Product 384",
+    "category": "Cell phones",
+    "price": 1498.25,
+    "createdAt": "2020-11-09T00:31:35.489Z",
+    "removed": false,
+    "stock": 18,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 47",
+    "description": "Description for Product 47",
+    "category": "Sports",
+    "price": 2861.25,
+    "createdAt": "2020-01-27T23:33:49.499Z",
+    "removed": false,
+    "stock": 98,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 672",
+    "description": "Description for Product 672",
+    "category": "Beauty",
+    "price": 3706.04,
+    "createdAt": "2023-06-29T01:50:25.003Z",
+    "removed": false,
+    "stock": 41,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 403",
+    "description": "Description for Product 403",
+    "category": "Books",
+    "price": 593.31,
+    "createdAt": "2023-11-28T10:45:08.707Z",
+    "removed": false,
+    "stock": 61,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 133",
+    "description": "Description for Product 133",
+    "category": "Video games",
+    "price": 2743.07,
+    "createdAt": "2022-01-23T14:00:15.639Z",
+    "removed": false,
+    "stock": 44,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 190",
+    "description": "Description for Product 190",
+    "category": "Beauty",
+    "price": 2038.03,
+    "createdAt": "2022-07-05T08:00:35.088Z",
+    "removed": false,
+    "stock": 46,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 386",
+    "description": "Description for Product 386",
+    "category": "Beauty",
+    "price": 2012.14,
+    "createdAt": "2020-08-15T05:16:27.723Z",
+    "removed": false,
+    "stock": 67,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 394",
+    "description": "Description for Product 394",
+    "category": "Beauty",
+    "price": 2076.46,
+    "createdAt": "2023-09-28T23:05:59.844Z",
+    "removed": false,
+    "stock": 8,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 838",
+    "description": "Description for Product 838",
+    "category": "Baby",
+    "price": 346.76,
+    "createdAt": "2020-06-25T19:50:59.540Z",
+    "removed": false,
+    "stock": 21,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 415",
+    "description": "Description for Product 415",
+    "category": "Books",
+    "price": 2414.43,
+    "createdAt": "2021-12-04T10:52:08.342Z",
+    "removed": false,
+    "stock": 90,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 632",
+    "description": "Description for Product 632",
+    "category": "Automotive",
+    "price": 308.55,
+    "createdAt": "2022-12-25T03:19:19.647Z",
+    "removed": false,
+    "stock": 62,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 570",
+    "description": "Description for Product 570",
+    "category": "Home and kitchen",
+    "price": 391.37,
+    "createdAt": "2022-09-22T07:45:34.770Z",
+    "removed": false,
+    "stock": 31,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 683",
+    "description": "Description for Product 683",
+    "category": "Outdoors",
+    "price": 137.11,
+    "createdAt": "2023-02-27T01:17:51.430Z",
+    "removed": false,
+    "stock": 50,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 79",
+    "description": "Description for Product 79",
+    "category": "Appliances",
+    "price": 3330.21,
+    "createdAt": "2021-02-16T17:14:06.961Z",
+    "removed": false,
+    "stock": 12,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 612",
+    "description": "Description for Product 612",
+    "category": "Pet supplies",
+    "price": 3095.25,
+    "createdAt": "2022-11-27T05:08:36.409Z",
+    "removed": false,
+    "stock": 64,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 6",
+    "description": "Description for Product 6",
+    "category": "Home and kitchen",
+    "price": 3211.72,
+    "createdAt": "2022-01-30T16:40:18.430Z",
+    "removed": false,
+    "stock": 90,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 734",
+    "description": "Description for Product 734",
+    "category": "Cell phones",
+    "price": 1998.95,
+    "createdAt": "2023-05-20T09:22:12.855Z",
+    "removed": false,
+    "stock": 35,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 879",
+    "description": "Description for Product 879",
+    "category": "Health",
+    "price": 1584.58,
+    "createdAt": "2020-10-22T10:16:13.579Z",
+    "removed": false,
+    "stock": 6,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 326",
+    "description": "Description for Product 326",
+    "category": "Office products",
+    "price": 3675.72,
+    "createdAt": "2020-12-11T20:31:07.910Z",
+    "removed": false,
+    "stock": 6,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 727",
+    "description": "Description for Product 727",
+    "category": "Books",
+    "price": 3896.71,
+    "createdAt": "2020-09-11T04:20:43.682Z",
+    "removed": false,
+    "stock": 19,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 291",
+    "description": "Description for Product 291",
+    "category": "Gift cards",
+    "price": 37.25,
+    "createdAt": "2023-04-07T00:01:28.931Z",
+    "removed": false,
+    "stock": 74,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 372",
+    "description": "Description for Product 372",
+    "category": "Entertainment collectibles",
+    "price": 3216.05,
+    "createdAt": "2023-07-17T15:09:04.366Z",
+    "removed": false,
+    "stock": 24,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 435",
+    "description": "Description for Product 435",
+    "category": "Pet supplies",
+    "price": 3815.29,
+    "createdAt": "2021-08-09T18:22:54.448Z",
+    "removed": false,
+    "stock": 20,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 847",
+    "description": "Description for Product 847",
+    "category": "Camera and photography",
+    "price": 3332.27,
+    "createdAt": "2021-06-24T16:14:46.126Z",
+    "removed": false,
+    "stock": 99,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 291",
+    "description": "Description for Product 291",
+    "category": "Entertainment collectibles",
+    "price": 3546.81,
+    "createdAt": "2023-05-20T13:52:06.751Z",
+    "removed": false,
+    "stock": 60,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 739",
+    "description": "Description for Product 739",
+    "category": "Gift cards",
+    "price": 3856.41,
+    "createdAt": "2021-01-26T05:25:41.931Z",
+    "removed": false,
+    "stock": 94,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 710",
+    "description": "Description for Product 710",
+    "category": "Online stores",
+    "price": 1602.31,
+    "createdAt": "2021-07-18T02:13:07.991Z",
+    "removed": false,
+    "stock": 19,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 791",
+    "description": "Description for Product 791",
+    "category": "Pet supplies",
+    "price": 203.81,
+    "createdAt": "2022-06-10T10:23:38.588Z",
+    "removed": false,
+    "stock": 92,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 90",
+    "description": "Description for Product 90",
+    "category": "Home and kitchen",
+    "price": 167.61,
+    "createdAt": "2020-08-20T05:03:50.351Z",
+    "removed": false,
+    "stock": 61,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 376",
+    "description": "Description for Product 376",
+    "category": "Health",
+    "price": 3165.59,
+    "createdAt": "2023-09-17T23:17:48.641Z",
+    "removed": false,
+    "stock": 80,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 68",
+    "description": "Description for Product 68",
+    "category": "Entertainment collectibles",
+    "price": 1555.91,
+    "createdAt": "2021-04-19T02:08:00.901Z",
+    "removed": false,
+    "stock": 1,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 546",
+    "description": "Description for Product 546",
+    "category": "Health",
+    "price": 1052.52,
+    "createdAt": "2020-05-21T18:13:21.476Z",
+    "removed": false,
+    "stock": 38,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 965",
+    "description": "Description for Product 965",
+    "category": "Outdoors",
+    "price": 1686.49,
+    "createdAt": "2023-09-14T12:39:39.470Z",
+    "removed": false,
+    "stock": 81,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 569",
+    "description": "Description for Product 569",
+    "category": "Sports",
+    "price": 1926,
+    "createdAt": "2023-10-26T13:10:30.584Z",
+    "removed": false,
+    "stock": 35,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 107",
+    "description": "Description for Product 107",
+    "category": "Video games",
+    "price": 3920.32,
+    "createdAt": "2023-09-03T07:56:03.408Z",
+    "removed": false,
+    "stock": 16,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 369",
+    "description": "Description for Product 369",
+    "category": "Home and kitchen",
+    "price": 2643.32,
+    "createdAt": "2023-09-09T00:23:52.856Z",
+    "removed": false,
+    "stock": 32,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 835",
+    "description": "Description for Product 835",
+    "category": "Appliances",
+    "price": 985.78,
+    "createdAt": "2020-02-22T15:33:24.361Z",
+    "removed": false,
+    "stock": 91,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 508",
+    "description": "Description for Product 508",
+    "category": "Toys",
+    "price": 1038.89,
+    "createdAt": "2022-03-06T14:09:13.912Z",
+    "removed": false,
+    "stock": 28,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 196",
+    "description": "Description for Product 196",
+    "category": "Health",
+    "price": 3315.17,
+    "createdAt": "2023-11-07T04:23:51.340Z",
+    "removed": false,
+    "stock": 27,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 349",
+    "description": "Description for Product 349",
+    "category": "Fine art",
+    "price": 1547.35,
+    "createdAt": "2020-02-01T21:50:31.221Z",
+    "removed": false,
+    "stock": 54,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 131",
+    "description": "Description for Product 131",
+    "category": "Video games",
+    "price": 925.02,
+    "createdAt": "2022-06-25T10:51:57.274Z",
+    "removed": false,
+    "stock": 26,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 86",
+    "description": "Description for Product 86",
+    "category": "Fine art",
+    "price": 1776.16,
+    "createdAt": "2021-12-05T09:54:49.133Z",
+    "removed": false,
+    "stock": 37,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 349",
+    "description": "Description for Product 349",
+    "category": "Outdoors",
+    "price": 977.91,
+    "createdAt": "2021-11-26T23:26:21.657Z",
+    "removed": false,
+    "stock": 37,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 302",
+    "description": "Description for Product 302",
+    "category": "Fine art",
+    "price": 3639.26,
+    "createdAt": "2022-08-13T16:59:55.028Z",
+    "removed": false,
+    "stock": 78,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 946",
+    "description": "Description for Product 946",
+    "category": "Home and kitchen",
+    "price": 2062.97,
+    "createdAt": "2021-06-19T09:47:01.485Z",
+    "removed": false,
+    "stock": 53,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 440",
+    "description": "Description for Product 440",
+    "category": "Home and kitchen",
+    "price": 3408.1,
+    "createdAt": "2020-11-08T19:26:59.467Z",
+    "removed": false,
+    "stock": 42,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 577",
+    "description": "Description for Product 577",
+    "category": "Fine art",
+    "price": 3708.42,
+    "createdAt": "2023-08-28T04:28:23.071Z",
+    "removed": false,
+    "stock": 38,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 647",
+    "description": "Description for Product 647",
+    "category": "Pet supplies",
+    "price": 3001.57,
+    "createdAt": "2022-11-13T20:35:01.478Z",
+    "removed": false,
+    "stock": 68,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 467",
+    "description": "Description for Product 467",
+    "category": "Baby",
+    "price": 3800.33,
+    "createdAt": "2020-08-27T03:34:09.399Z",
+    "removed": false,
+    "stock": 4,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 861",
+    "description": "Description for Product 861",
+    "category": "Home and kitchen",
+    "price": 2466.99,
+    "createdAt": "2021-01-20T21:39:29.374Z",
+    "removed": false,
+    "stock": 89,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 240",
+    "description": "Description for Product 240",
+    "category": "Books",
+    "price": 602.51,
+    "createdAt": "2021-08-19T04:56:17.130Z",
+    "removed": false,
+    "stock": 21,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 612",
+    "description": "Description for Product 612",
+    "category": "Entertainment collectibles",
+    "price": 121.31,
+    "createdAt": "2023-05-01T18:01:35.882Z",
+    "removed": false,
+    "stock": 20,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 743",
+    "description": "Description for Product 743",
+    "category": "Books",
+    "price": 3950,
+    "createdAt": "2023-07-29T04:30:52.019Z",
+    "removed": false,
+    "stock": 32,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 215",
+    "description": "Description for Product 215",
+    "category": "Video games",
+    "price": 3674.23,
+    "createdAt": "2021-04-30T11:34:16.822Z",
+    "removed": false,
+    "stock": 23,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 548",
+    "description": "Description for Product 548",
+    "category": "Baby",
+    "price": 1790.31,
+    "createdAt": "2021-12-18T02:48:34.914Z",
+    "removed": false,
+    "stock": 0,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 709",
+    "description": "Description for Product 709",
+    "category": "Grocery",
+    "price": 2674.14,
+    "createdAt": "2023-07-31T03:09:39.638Z",
+    "removed": false,
+    "stock": 64,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 44",
+    "description": "Description for Product 44",
+    "category": "Appliances",
+    "price": 2886.91,
+    "createdAt": "2023-10-11T05:59:03.241Z",
+    "removed": false,
+    "stock": 56,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 807",
+    "description": "Description for Product 807",
+    "category": "Grocery",
+    "price": 2295.31,
+    "createdAt": "2022-10-26T20:17:55.440Z",
+    "removed": false,
+    "stock": 37,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 908",
+    "description": "Description for Product 908",
+    "category": "Grocery",
+    "price": 365.18,
+    "createdAt": "2023-11-20T06:26:22.434Z",
+    "removed": false,
+    "stock": 30,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 504",
+    "description": "Description for Product 504",
+    "category": "Pet supplies",
+    "price": 1461.63,
+    "createdAt": "2023-08-08T00:42:54.036Z",
+    "removed": false,
+    "stock": 98,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 120",
+    "description": "Description for Product 120",
+    "category": "Baby",
+    "price": 1804.68,
+    "createdAt": "2020-03-24T01:38:55.248Z",
+    "removed": false,
+    "stock": 88,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 362",
+    "description": "Description for Product 362",
+    "category": "Baby",
+    "price": 2350.74,
+    "createdAt": "2021-07-06T02:51:03.017Z",
+    "removed": false,
+    "stock": 59,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 447",
+    "description": "Description for Product 447",
+    "category": "Office products",
+    "price": 1315.61,
+    "createdAt": "2020-02-09T00:19:15.800Z",
+    "removed": false,
+    "stock": 79,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 305",
+    "description": "Description for Product 305",
+    "category": "Camera and photography",
+    "price": 2736.32,
+    "createdAt": "2022-07-16T23:49:03.884Z",
+    "removed": false,
+    "stock": 78,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 80",
+    "description": "Description for Product 80",
+    "category": "Camera and photography",
+    "price": 2249.44,
+    "createdAt": "2022-03-02T02:15:10.038Z",
+    "removed": false,
+    "stock": 68,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 815",
+    "description": "Description for Product 815",
+    "category": "Electronics",
+    "price": 736.94,
+    "createdAt": "2020-03-27T22:19:25.212Z",
+    "removed": false,
+    "stock": 24,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 70",
+    "description": "Description for Product 70",
+    "category": "Home and kitchen",
+    "price": 2609.14,
+    "createdAt": "2020-11-29T04:31:29.771Z",
+    "removed": false,
+    "stock": 3,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 47",
+    "description": "Description for Product 47",
+    "category": "Toys",
+    "price": 2726.67,
+    "createdAt": "2023-06-15T10:12:28.840Z",
+    "removed": false,
+    "stock": 38,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 842",
+    "description": "Description for Product 842",
+    "category": "Grocery",
+    "price": 298.49,
+    "createdAt": "2020-07-12T22:18:36.077Z",
+    "removed": false,
+    "stock": 59,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 71",
+    "description": "Description for Product 71",
+    "category": "Electronics",
+    "price": 1773.58,
+    "createdAt": "2023-11-29T21:46:11.559Z",
+    "removed": false,
+    "stock": 31,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 393",
+    "description": "Description for Product 393",
+    "category": "Cell phones",
+    "price": 2818.69,
+    "createdAt": "2020-01-04T11:27:53.996Z",
+    "removed": false,
+    "stock": 14,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 400",
+    "description": "Description for Product 400",
+    "category": "Home and kitchen",
+    "price": 185.27,
+    "createdAt": "2020-11-04T02:52:20.255Z",
+    "removed": false,
+    "stock": 91,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 460",
+    "description": "Description for Product 460",
+    "category": "Camera and photography",
+    "price": 989.41,
+    "createdAt": "2023-11-22T08:15:06.704Z",
+    "removed": false,
+    "stock": 86,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 831",
+    "description": "Description for Product 831",
+    "category": "Electronics",
+    "price": 2420.47,
+    "createdAt": "2022-07-25T15:01:20.219Z",
+    "removed": false,
+    "stock": 96,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 720",
+    "description": "Description for Product 720",
+    "category": "Online stores",
+    "price": 836.79,
+    "createdAt": "2020-12-06T23:10:41.807Z",
+    "removed": false,
+    "stock": 27,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 489",
+    "description": "Description for Product 489",
+    "category": "Appliances",
+    "price": 3456.23,
+    "createdAt": "2022-02-20T23:26:03.020Z",
+    "removed": false,
+    "stock": 8,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 318",
+    "description": "Description for Product 318",
+    "category": "Automotive",
+    "price": 3521.67,
+    "createdAt": "2021-08-31T12:53:52.641Z",
+    "removed": false,
+    "stock": 28,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 46",
+    "description": "Description for Product 46",
+    "category": "Automotive",
+    "price": 1075.29,
+    "createdAt": "2021-05-15T19:48:22.271Z",
+    "removed": false,
+    "stock": 28,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 918",
+    "description": "Description for Product 918",
+    "category": "Sports",
+    "price": 1751.04,
+    "createdAt": "2021-06-05T21:06:07.693Z",
+    "removed": false,
+    "stock": 93,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 465",
+    "description": "Description for Product 465",
+    "category": "Books",
+    "price": 387.85,
+    "createdAt": "2021-11-13T08:50:10.979Z",
+    "removed": false,
+    "stock": 28,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 950",
+    "description": "Description for Product 950",
+    "category": "Fine art",
+    "price": 3007.64,
+    "createdAt": "2021-09-09T16:49:33.598Z",
+    "removed": false,
+    "stock": 2,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 137",
+    "description": "Description for Product 137",
+    "category": "Health",
+    "price": 875.59,
+    "createdAt": "2021-08-17T12:08:16.100Z",
+    "removed": false,
+    "stock": 35,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 792",
+    "description": "Description for Product 792",
+    "category": "Beauty",
+    "price": 1360.96,
+    "createdAt": "2020-06-17T17:53:25.730Z",
+    "removed": false,
+    "stock": 88,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 74",
+    "description": "Description for Product 74",
+    "category": "Musical instruments",
+    "price": 2502.64,
+    "createdAt": "2022-04-03T13:53:43.205Z",
+    "removed": false,
+    "stock": 72,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 118",
+    "description": "Description for Product 118",
+    "category": "Outdoors",
+    "price": 1680.86,
+    "createdAt": "2020-08-12T04:38:22.301Z",
+    "removed": false,
+    "stock": 28,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 589",
+    "description": "Description for Product 589",
+    "category": "Outdoors",
+    "price": 886,
+    "createdAt": "2021-02-09T23:41:29.880Z",
+    "removed": false,
+    "stock": 93,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 458",
+    "description": "Description for Product 458",
+    "category": "Beauty",
+    "price": 161.47,
+    "createdAt": "2022-04-03T03:21:33.545Z",
+    "removed": false,
+    "stock": 84,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 945",
+    "description": "Description for Product 945",
+    "category": "Home and kitchen",
+    "price": 1819.76,
+    "createdAt": "2022-05-30T05:11:51.437Z",
+    "removed": false,
+    "stock": 45,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 873",
+    "description": "Description for Product 873",
+    "category": "Beauty",
+    "price": 894.02,
+    "createdAt": "2022-09-03T22:43:02.195Z",
+    "removed": false,
+    "stock": 87,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 614",
+    "description": "Description for Product 614",
+    "category": "Outdoors",
+    "price": 764.01,
+    "createdAt": "2020-11-27T07:43:20.937Z",
+    "removed": false,
+    "stock": 65,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 362",
+    "description": "Description for Product 362",
+    "category": "Automotive",
+    "price": 2239.52,
+    "createdAt": "2021-05-28T01:09:27.005Z",
+    "removed": false,
+    "stock": 66,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 217",
+    "description": "Description for Product 217",
+    "category": "Musical instruments",
+    "price": 3721.7,
+    "createdAt": "2023-07-02T10:58:18.377Z",
+    "removed": false,
+    "stock": 56,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 171",
+    "description": "Description for Product 171",
+    "category": "Fine art",
+    "price": 1970.08,
+    "createdAt": "2021-02-09T12:27:52.145Z",
+    "removed": false,
+    "stock": 81,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 709",
+    "description": "Description for Product 709",
+    "category": "Health",
+    "price": 2729.38,
+    "createdAt": "2020-07-01T11:57:13.344Z",
+    "removed": false,
+    "stock": 32,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 718",
+    "description": "Description for Product 718",
+    "category": "Fine art",
+    "price": 3934.46,
+    "createdAt": "2023-10-31T22:51:30.717Z",
+    "removed": false,
+    "stock": 20,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 429",
+    "description": "Description for Product 429",
+    "category": "Gift cards",
+    "price": 3003.04,
+    "createdAt": "2021-10-07T10:09:40.192Z",
+    "removed": false,
+    "stock": 48,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 499",
+    "description": "Description for Product 499",
+    "category": "Pet supplies",
+    "price": 1866.35,
+    "createdAt": "2021-03-24T09:29:25.121Z",
+    "removed": false,
+    "stock": 10,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 217",
+    "description": "Description for Product 217",
+    "category": "Entertainment collectibles",
+    "price": 1181,
+    "createdAt": "2020-01-09T07:04:36.028Z",
+    "removed": false,
+    "stock": 43,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 999",
+    "description": "Description for Product 999",
+    "category": "Health",
+    "price": 2171.71,
+    "createdAt": "2020-05-31T21:06:03.606Z",
+    "removed": false,
+    "stock": 28,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  },
+  {
+    "name": "Product 938",
+    "description": "Description for Product 938",
+    "category": "Baby",
+    "price": 3268.76,
+    "createdAt": "2023-09-24T02:28:00.550Z",
+    "removed": false,
+    "stock": 40,
+    "image": "https://www.mooreseal.com/wp-content/uploads/2013/11/dummy-image-square.jpg"
+  }
+]

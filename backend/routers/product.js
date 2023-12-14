@@ -1,8 +1,21 @@
 const express = require("express");
-const jwt = require("jsonwebtoken");
-const CustomAPIError = require("../errors");
-const userController = require("../controllers/user");
-const productController = require("../controllers/product");
+const {
+  listProducts,
+  createProduct,
+  getProduct,
+  updateProduct,
+  deleteProduct
+} = require("../controllers/product");
+const {
+  authenticationMiddleware: auth,
+  authorizationMiddleware: admin,
+} = require("../middlewares/auth");
 const router = express.Router();
+
+router.get("/", listProducts);
+router.post("/", auth, admin, createProduct);
+router.get("/:id", getProduct);
+router.put("/:id", updateProduct);
+router.delete("/:id", auth, admin, deleteProduct);
 
 module.exports = router;

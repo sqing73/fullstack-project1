@@ -12,6 +12,8 @@ connectDb();
 require("dotenv").config();
 const port = process.env.PORT || 3000;
 
+app.locals.blackList = new Set();
+
 app.use(express.json());
 
 //routers

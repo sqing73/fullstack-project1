@@ -12,10 +12,6 @@ const router = express.Router();
 const envFilePath = path.resolve(__dirname, "../.env");
 require("dotenv").config({ path: envFilePath });
 
-// stored log out user ids in a black list
-const app = express();
-app.locals.blackList = new Set();
-
 router.post("/login", async (req, res, next) => {
   try {
     const { email, password } = req.body;

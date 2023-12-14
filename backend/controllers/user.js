@@ -40,7 +40,21 @@ const updatePassword = async (req, res, next) => {
   }
 };
 
+const getUser = async (req, res, next) => {
+  try {
+    const userId = req.user.id;
+    const user = await User.findById(userId);
+    await user.populate("cart");
+    // TODO: check cart
+    user.cart = user.cart.filter(cartItem => !cartItem.removed);
+    res.json(user);
+  } catch (err) {
+    next(err);
+  }
+};
+
 module.exports = {
   createUser,
   updatePassword,
+  getUser,
 };

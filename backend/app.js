@@ -4,6 +4,7 @@ const userRouter = require("./routers/user");
 const productRouter = require("./routers/product");
 const authRouter = require("./routers/auth");
 const errorHandleMiddleware = require("./middlewares/errorHandler");
+const cartRouter = require('./routers/cart');
 
 const app = express();
 
@@ -21,7 +22,7 @@ app.set("base", "/api");
 app.use(app.get("base"), authRouter);
 app.use(app.get("base") + '/user', userRouter);
 app.use(app.get("base") + '/product', productRouter);
-
+app.use(app.get("base") + '/cart', cartRouter);
 app.use(errorHandleMiddleware);
 
 app.use((req, res) => {

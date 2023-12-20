@@ -11,7 +11,14 @@ const authenticationMiddleware = async (req, res, next) => {
 
         // Verify token
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        req.user = decoded.user;
+
+        // Check if user information is present in the token
+        if (!decoded.user || !decoded.user.id) {
+            throw new CustomAPIError('Invalid token', 401);
+        }
+
+        // Set the user ID in req.user
+        req.user = { _id: decoded.user.id };
         next();
     } catch (err) {
         res.status(401).json({ message: 'Token is not valid' });

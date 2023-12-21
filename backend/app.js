@@ -5,6 +5,7 @@ const productRouter = require("./routers/product");
 const authRouter = require("./routers/auth");
 const errorHandleMiddleware = require("./middlewares/errorHandler");
 const cartRouter = require('./routers/cart');
+const cors = require("cors");
 
 const app = express();
 
@@ -15,6 +16,7 @@ const port = process.env.PORT || 3000;
 
 app.locals.blackList = new Set();
 
+app.use(cors());
 app.use(express.json());
 
 //routers

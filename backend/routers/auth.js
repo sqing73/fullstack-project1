@@ -51,7 +51,7 @@ router.post("/login", async (req, res, next) => {
     req.app.locals.blackList.delete(user._id);
 
     // Send the JWT token and cart details in the response
-    res.json({ token: jwtToken, cart: cartDetails });
+    res.json({ token: jwtToken, role: user.role, cart: cartDetails });
   } catch (err) {
     next(err);
   }

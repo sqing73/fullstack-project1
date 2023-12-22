@@ -36,7 +36,7 @@ router.post("/login", async (req, res, next) => {
     // remove the user from black list
     // or authentication middleware might block the user
     req.app.locals.blackList.delete(user._id);
-    res.json({ token: jwtToken });
+    res.json({ token: jwtToken, role: user.role });
   } catch (err) {
     next(err);
   }

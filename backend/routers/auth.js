@@ -1,6 +1,7 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
+const Cart = require('../models/Cart'); // Add this line to import the Cart model
 const CustomAPIError = require("../errors");
 const path = require("path");
 const {
@@ -33,10 +34,24 @@ router.post("/login", async (req, res, next) => {
     const jwtToken = jwt.sign(jwtPayload, process.env.JWT_SECRET, {
       expiresIn: "30d",
     });
+
+    // Retrieve user's shopping cart
+    const cart = await Cart.findOne({ user: user._id }).populate('items.product');
+    let cartDetails = null;
+    if (cart) {
+      let totalPrice = 0;
+      cart.items.forEach(item => {
+        totalPrice += item.quantity * item.product.price;
+      });
+      cartDetails = { cart: cart, totalPrice: totalPrice };
+    }
+
     // remove the user from black list
     // or authentication middleware might block the user
     req.app.locals.blackList.delete(user._id);
-    res.json({ token: jwtToken });
+
+    // Send the JWT token and cart details in the response
+    res.json({ token: jwtToken, cart: cartDetails });
   } catch (err) {
     next(err);
   }

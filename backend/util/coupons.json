@@ -1,0 +1,85 @@
+[
+    {
+      "code": "WELCOME10",
+      "description": "10% off on your first purchase",
+      "discountRate": 0.10,
+      "expirationDate": "2024-01-01",
+      "minPurchase": 30.00,
+      "userSpecific": false
+    },
+    {
+      "code": "SUMMER20",
+      "description": "20% off on summer sale items",
+      "discountRate": 0.20,
+      "expirationDate": "2024-06-01",
+      "minPurchase": 50.00,
+      "userSpecific": false
+    },
+    {
+      "code": "50OFF500",
+      "description": "50$ off on purchases over 500$",
+      "discountRate": 50.00,
+      "expirationDate": "2024-03-01",
+      "minPurchase": 500.00,
+      "userSpecific": false
+    },
+    {
+      "code": "FREESHIP",
+      "description": "Free shipping on your next order",
+      "discountRate": 0.00,
+      "expirationDate": "2023-12-31",
+      "minPurchase": 20.00,
+      "userSpecific": false
+    },
+    {
+      "code": "VIPACCESS",
+      "description": "Exclusive 15% off for VIP members",
+      "discountRate": 0.15,
+      "expirationDate": "2024-02-28",
+      "minPurchase": 100.00,
+      "userSpecific": true,
+      "userId": "uniqueUserId1"
+    },
+    {
+      "code": "HAPPYBDAY",
+      "description": "25% off birthday special",
+      "discountRate": 0.25,
+      "expirationDate": "2024-08-15",
+      "minPurchase": 0.00,
+      "userSpecific": true,
+      "userId": "uniqueUserId2"
+    },
+    {
+      "code": "STUDENT10",
+      "description": "10% off for students",
+      "discountRate": 0.10,
+      "expirationDate": "2024-09-30",
+      "minPurchase": 20.00,
+      "userSpecific": false
+    },
+    {
+      "code": "NEWYEAR20",
+      "description": "20% off to kickstart the new year",
+      "discountRate": 0.20,
+      "expirationDate": "2024-01-07",
+      "minPurchase": 100.00,
+      "userSpecific": false
+    },
+    {
+      "code": "WINTERSALE",
+      "description": "15% off winter collection",
+      "discountRate": 0.15,
+      "expirationDate": "2023-12-31",
+      "minPurchase": 80.00,
+      "userSpecific": false
+    },
+    {
+      "code": "APPONLY",
+      "description": "Exclusive 10% off on app purchases",
+      "discountRate": 0.10,
+      "expirationDate": "2024-05-01",
+      "minPurchase": 10.00,
+      "userSpecific": false
+    }
+  ]
+  

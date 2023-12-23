@@ -1,7 +1,36 @@
-const Cart = require('../models/Cart'); // New Cart model
+const fs = require('fs');
+const path = require('path');
+const Cart = require('../models/Cart');
 const Product = require('../models/Product');
 
-// Get the user's cart
+// Read the coupons file
+const couponsFilePath = path.join(__dirname, 'coupons.json'); 
+let coupons = [];
+try {
+  const couponsData = fs.readFileSync(couponsFilePath, 'utf8');
+  coupons = JSON.parse(couponsData);
+} catch (error) {
+  console.error("Failed to load coupons:", error);
+}
+
+// Validate Coupon Function
+async function validateCoupon(couponCode, totalAmount) {
+    const coupon = coupons.find(c => c.code === couponCode);
+    if (!coupon) return { valid: false, discountRate: 0.0, message: "Coupon not found" };
+
+    // Check expiration
+    if (new Date(coupon.expirationDate) < new Date()) {
+        return { valid: false, discountRate: 0.0, message: "Coupon has expired" };
+    }
+
+    // Check minimum purchase amount
+    if (totalAmount < coupon.minPurchase) {
+        return { valid: false, discountRate: 0.0, message: `Minimum purchase of $${coupon.minPurchase} required` };
+    }
+
+    return { valid: true, discountRate: coupon.discountRate, message: "Coupon applied successfully" };
+}
+
 exports.getCart = async (req, res) => {
     try {
         const userId = req.user._id; // Assuming user ID is stored in req.user
@@ -16,12 +45,41 @@ exports.getCart = async (req, res) => {
             totalPrice += item.quantity * item.product.price;
         });
 
-        // Respond with the cart and total price
-        res.json({ cart: cart, totalPrice: totalPrice });
+        // Calculate tax
+        const taxRate = 0.07;
+        let tax = totalPrice * taxRate; // tax is now calculated based on the totalPrice
+
+        // Initialize coupon discount
+        let couponDiscount = 0;
+        let couponMessage = '';
+
+        // Check if a coupon code is provided
+        if (req.query.coupon) {
+            const couponValidation = await validateCoupon(req.query.coupon, totalPrice);
+            couponMessage = couponValidation.message;
+            if (couponValidation.valid) {
+                couponDiscount = totalPrice * couponValidation.discountRate;
+                totalPrice -= couponDiscount; // Apply discount to total price
+            }
+        }
+
+        // Add tax to the total price after applying the coupon
+        totalPrice += tax;
+
+        // Respond with the cart, total price, tax, coupon discount, and coupon message
+        res.json({
+            cart: cart,
+            totalPrice: totalPrice.toFixed(2), // Convert to a string with 2 decimal places
+            tax: tax.toFixed(2),
+            couponDiscount: couponDiscount.toFixed(2),
+            couponMessage: couponMessage
+        });
     } catch (error) {
+        // Handle any other errors that may occur
         res.status(500).json({ message: 'Error retrieving cart', error: error.message });
     }
 };
+
 
 
 
@@ -45,10 +103,12 @@ exports.updateCart = async (req, res) => {
 
         const itemIndex = cart.items.findIndex(item => item.product.toString() === productId);
 
+        // Update cart based on the quantity provided
         if (quantity > 0) {
             if (itemIndex > -1) {
                 // Update item quantity
                 cart.items[itemIndex].quantity = quantity;
+                cart.markModified('items'); // Mark the items array as modified to ensure changes are saved
             } else {
                 // Add new item to the cart
                 cart.items.push({ product: productId, quantity });
@@ -60,11 +120,17 @@ exports.updateCart = async (req, res) => {
 
         // Save the updated or new cart
         await cart.save();
-        res.status(200).json(cart);
+
+        // Respond with the updated cart
+        res.status(200).json({
+            message: 'Cart updated successfully',
+            cart: cart
+        });
     } catch (error) {
         res.status(500).json({ message: 'Error updating cart', error: error.message });
     }
 };
+
 
 
 // Handle the checkout process

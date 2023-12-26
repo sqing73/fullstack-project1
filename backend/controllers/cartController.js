@@ -84,6 +84,8 @@ exports.getCart = async (req, res) => {
 
 
 // Update the cart (add/remove items, change quantity)
+// Update the cart (add/remove items, change quantity)
+// Update the cart (add/remove items, change quantity)
 exports.updateCart = async (req, res) => {
     try {
         const userId = req.user._id;
@@ -108,7 +110,6 @@ exports.updateCart = async (req, res) => {
             if (itemIndex > -1) {
                 // Update item quantity
                 cart.items[itemIndex].quantity = quantity;
-                cart.markModified('items'); // Mark the items array as modified to ensure changes are saved
             } else {
                 // Add new item to the cart
                 cart.items.push({ product: productId, quantity });
@@ -121,15 +122,54 @@ exports.updateCart = async (req, res) => {
         // Save the updated or new cart
         await cart.save();
 
-        // Respond with the updated cart
-        res.status(200).json({
-            message: 'Cart updated successfully',
-            cart: cart
+        // Populate product details
+        cart.populate('items.product').then(async (populatedCart) => {
+            // Calculate total price
+            let totalPrice = 0;
+            populatedCart.items.forEach(item => {
+                totalPrice += item.quantity * item.product.price;
+            });
+
+            // Calculate tax
+            const taxRate = 0.07;
+            let tax = totalPrice * taxRate;
+
+            // Initialize coupon discount and message
+            let couponDiscount = 0;
+            let couponMessage = '';
+
+            // Check if a coupon code is provided
+            if (req.query.coupon) {
+                const couponValidation = await validateCoupon(req.query.coupon, totalPrice);
+                couponMessage = couponValidation.message;
+                if (couponValidation.valid) {
+                    couponDiscount = totalPrice * couponValidation.discountRate;
+                    totalPrice -= couponDiscount; // Apply discount to total price
+                }
+            }
+
+            // Add tax to the total price after applying the coupon
+            totalPrice += tax;
+
+            // Respond with the updated cart and additional details
+            res.json({
+                message: 'Cart updated successfully',
+                cart: populatedCart,
+                totalPrice: totalPrice.toFixed(2),
+                tax: tax.toFixed(2),
+                couponDiscount: couponDiscount.toFixed(2),
+                couponMessage: couponMessage
+            });
+        }).catch(err => {
+            res.status(500).json({ message: 'Error populating cart', error: err.message });
         });
+
     } catch (error) {
         res.status(500).json({ message: 'Error updating cart', error: error.message });
     }
 };
+
+
 
 
 

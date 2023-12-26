@@ -15,7 +15,6 @@ const authenticationMiddleware = async (req, res, next) => {
     if (!token) {
       throw new CustomAPIError("Token not found", 400);
     }
-    token = token.includes("Bearer") ? token.split(" ")[1] : token;
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded.user;
     console.log("black-list:", Array.from(req.app.locals.blackList));

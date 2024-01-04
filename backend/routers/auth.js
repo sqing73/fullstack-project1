@@ -45,7 +45,15 @@ router.post("/login", async (req, res, next) => {
       cart.items.forEach((item) => {
         totalPrice += item.quantity * item.product.price;
       });
-      cartDetails = { cart: cart, totalPrice: totalPrice };
+      const taxRate = 0.07;
+      let tax = totalPrice * taxRate; // tax is now calculated based on the totalPrice
+      totalPrice += tax;
+
+      cartDetails = {
+        cart: cart,
+        totalPrice: totalPrice.toFixed(2), // Convert to a string with 2 decimal places
+        tax: tax.toFixed(2),
+      };
     }
 
     // remove the user from black list

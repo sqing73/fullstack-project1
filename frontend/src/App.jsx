@@ -149,6 +149,7 @@ function App() {
         alignItems="center"
       >
         <Header
+          cart={cart}
           authenticated={auth.isAuthenticated}
           handleSignout={handleSignout}
           handleCartOpen={handleCartOpen}

@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 import { memo } from "react";
 
 const Header = memo(function Header({
+  cart,
   authenticated,
   handleSignout,
   handleCartOpen,
@@ -111,7 +112,7 @@ const Header = memo(function Header({
             onClick={handleCartOpen}
           >
             <ShoppingCartIcon />
-            <Typography marginLeft={1}>Cart</Typography>
+            <Typography marginLeft={1}>{(cart.totalPrice == 0) ? "Cart":"$"+cart.totalPrice}</Typography>
           </IconButton>
         </Box>
       </Toolbar>

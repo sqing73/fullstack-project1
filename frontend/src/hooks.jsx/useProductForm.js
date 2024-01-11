@@ -1,6 +1,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { syncCart } from "../store";
+
 
 const productCatogories = [
   "Appliances",
@@ -45,6 +48,7 @@ const useProductForm = (productId) => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const getProduct = async () => {
@@ -131,7 +135,7 @@ const useProductForm = (productId) => {
           "Content-Type": "application/json",
         },
       });
-        await new Promise((resolve) => setTimeout(() => {resolve(1)}, 5000))
+        // await new Promise((resolve) => setTimeout(() => {resolve(1)}, 5000))
       navigate(`/product/${result.data._id}`);
     } catch (error) {
       navigate("/404");
@@ -160,7 +164,8 @@ const useProductForm = (productId) => {
           "Content-Type": "application/json",
         },
       });
-      await new Promise((resolve) => setTimeout(() => {resolve(1)}, 5000))
+      dispatch(syncCart(productId));
+      // await new Promise((resolve) => setTimeout(() => {resolve(1)}, 5000))
       navigate(`/product/${result.data._id}`);
     } catch (error) {
       console.log(error);

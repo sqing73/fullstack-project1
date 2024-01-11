@@ -77,7 +77,6 @@ const cartSlice = createSlice({
       state.error = action.payload;
     },
     addItem(state, action) {
-      console.log(action.payload.product);
       state.items = [
         ...state.items,
         { product: action.payload.product, quantity: 1 },

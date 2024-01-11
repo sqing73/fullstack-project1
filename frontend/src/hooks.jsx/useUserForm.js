@@ -86,7 +86,9 @@ const useUserForm = () => {
       } else if (errorMessage && errorMessage.includes("Password")) {
         setErrors((prev) => ({ ...prev, passwordError: errorMessage }));
       } else {
-        throw error;
+        // throw new Error('500 Internal Server Error');
+        setErrors((prev) => ({ ...prev, passwordError: "Something went wrong, please try again later" }));
+
       }
     } finally {
       setLoading(false);

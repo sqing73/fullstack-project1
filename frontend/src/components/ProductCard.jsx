@@ -15,7 +15,7 @@ const ProductCard = ({ productData, auth, handleAddToCart }) => {
           <img
             src={productData.image}
             alt=""
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
         </Box>
         <Stack flex={1} direction="column" spacing={4}>

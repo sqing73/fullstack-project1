@@ -21,9 +21,9 @@ const ProductsContainer = styled.div`
     }
     .forum-topics-title {
         color: #262626;
-        font-size: 24px;
+        font-size: 30px;
         margin: 30px 0 0;
-        padding: 0 40px 5px;
+        padding: 0 0 5px;
         font-weight: bold;
     }
     .btn_content {

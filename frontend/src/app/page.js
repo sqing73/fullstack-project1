@@ -1,9 +1,10 @@
 'use client'
 import { useEffect } from 'react';
-import TopBar from '../shared/topbar'
+import TopBar from '@/shared/topbar'
 import Products from '@/shared/products';
-import { bindURL } from '../shared/utils';
-import { DEBUG, LOGIN } from "../shared/config.js"
+import Footer from '@/shared/footer';
+import { bindURL } from '@/shared/utils';
+import { DEBUG, LOGIN } from "@/shared/config.js"
 import Image from 'next/image'
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
     <div>
       <TopBar />
       <Products />
+      <Footer />
     </div>
   );
 };

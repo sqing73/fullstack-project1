@@ -15,6 +15,7 @@ bun dev
 ```
 
 ```npm install @mui/material @mui/styled-engine-sc styled-components```
+```npm install @material-ui/core --legacy-peer-deps```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

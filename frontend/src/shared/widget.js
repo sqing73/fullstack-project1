@@ -6,13 +6,13 @@ import { NormalButtonContainer } from '../ui/widget'
 const NormalButton = styled(Button)({
     border: 'none',
     display: 'inline-block',
-    backgroundColor: '#29b',
+    backgroundColor: '#29b !important',
     /*background-image: url("/static/img/buttonblue@2x.png"),*/
     backgroundSize: 'cover',
     backgroundPosition: '50% 50%',
     transition: 'background-position .12s',
     color: '#fff',
-    fontSize: '12px',
+    fontSize: '14px',
     fontWeight: 600,
     overflow: 'hidden',
     cursor: 'pointer',

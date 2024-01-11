@@ -1,3 +1,3 @@
 export default function Page() {
-    return <p>Product Page</p>;
+    return <p>404</p>;
   }

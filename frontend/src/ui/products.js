@@ -44,6 +44,12 @@ const ProductsContainer = styled.div`
         font-size: 22px;
         font-weight: bold;
     }
+    .create-input-label {
+        padding-top: 20px;
+        color: #000;
+        font-size: 14;
+        font-weight: bold;
+    }
 `
 
 export {

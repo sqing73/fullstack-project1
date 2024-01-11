@@ -161,7 +161,7 @@ const Products = () => {
   };
 
   return (
-    <Box padding={{ sm: 8 }} width="90%">
+    <Box padding={{ sm: 8 }} width="90%" marginBottom={{xs: 8}}>
       <Stack direction="column" spacing={2} width="100%">
         <Stack
           direction={{ xs: "column", sm: "row" }}
